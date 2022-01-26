@@ -1,0 +1,220 @@
+/* ここから下に記載していく */
+/* ここからヘッダ―デザイン */
+.header__nav {
+    display: flex;
+}
+
+.header__nav li {
+    margin-left: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ここからメインビジュアル */
+.mainvisual {
+    height: 400px;
+    background: url("../img/mainbg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.mainvisual__tite{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.mainvisual__subtilte {
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* About */
+.About{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffdb1a;
+    text-align: center;
+    margin-top: 60px;
+}
+.About__jpntitle{
+    font-size: 16px;
+    color: #222222; 
+    font-family: ヒラギノ明朝 ProN W3;
+    text-align: center;
+    margin-top: 30px;
+}
+.About__sentencea{
+    font-size: 16px;
+    color: #222222; 
+    font-family: ヒラギノ明朝 ProN W3;
+    text-align: center;
+    margin-top: 60px;
+}
+.About__sentenceb{
+    font-size: 16px;
+    color: #222222; 
+    font-family: ヒラギノ明朝 ProN W3;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.About__sentencec{
+    font-size: 16px;
+    color: #222222; 
+    font-family: ヒラギノ明朝 ProN W3;
+    text-align: center;
+    line-height: 30px;
+}
+.About__sentenced{
+    font-size: 16px;
+    color: #222222; 
+    font-family: ヒラギノ明朝 ProN W3;
+    text-align: center;
+    margin-top: 40px;  
+}
+.About__sentencee{
+    font-size: 16px;
+    color: #222222; 
+    font-family: ヒラギノ明朝 ProN W3;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    line-height: 30px;
+}
+/* imgBox */
+.imgBox {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.imgBox p{
+    width: 25%;
+}
+
+.imgBox p img{
+    width: 100%;
+}
+/* COURSE */
+.COURSE{
+    font-size: 24px;
+    color: #222222;
+    text-align: center;
+    margin-top: 60px;
+}
+/* COURSE sntc */
+
+.course__sntc{
+    font-size: 16px;
+    color: #222222; 
+    font-family: ヒラギノ明朝 ProN W3;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.COURSE01{ 
+    display: flex;
+}
+.COURSE Img{
+    flex:1 1 600px; 
+}
+.COURSE01__sub{
+    flex:1 1 600px;
+    background-color: #fafafa;
+    width: 50%;
+    padding: 120px 50px 200px;
+    color: #222222;
+}
+.COURSE01__subtitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 120px 50px 200px;
+    margin-bottom: 40px;
+}
+
+.COURSE01__sntc{
+    width:400pk;
+    font-size: 16px;
+    font-family: ヒラギノ明朝 ProN W3;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.COURSE02{
+    display: flex;
+}
+.COURSE02__sub{
+    flex:1 1 600px;
+    background-color: #fafafa;
+    width: 50%;
+    padding: 120px 50px 200px;
+    color: #222222;
+}
+.COURSE02__Sntc{
+    width:400pk;
+    font-size: 16px;
+    font-family: ヒラギノ明朝 ProN W3;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.COURSE03{
+    display: flex;
+}
+.COURSE03__sub{
+    flex:1 1 600px;
+    background-color: #fafafa;
+    width: 50%;
+    padding: 120px 50px 200px;
+    color: #222222;
+}
+.COURSE03__subtilte{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 120px 50px 200px;
+    margin-bottom: 40px;
+}
+.COURSE03__Sntc{
+    width:400pk;
+    font-size: 16px;
+    font-family: ヒラギノ明朝 ProN W3;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.NEWS{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffdb1a;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.NEWS__jpntitle{
+    font-size: 16px;
+    color: #222222; 
+    font-family: ヒラギノ明朝 ProN W3;
+    text-align: center;
+    margin-top: 30px;
+}
+.NEWS Contents{
+    display: flex;
+    font-size: 16px;
+    font-family: ヒラギノ明朝 ProN W3;
+    color: #222222;
+}
+.Access{
+    font-size: 24px;
+    font-family: ヒラギノ明朝 ProN W3;
+    color: #222222;
+    text-align: center;
+}
